@@ -231,13 +231,18 @@
 }
 .card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    max-width: 300px;
+    max-width: 25%;
     margin: auto;
     text-align: center;
 	background-color: white;
 	color: #323A45;
+	float: left;
 }
 
+.card_separator {
+	width: 5%;
+	float: left;
+}
 .title {
     color: #323A45;
     font-size: 18px;

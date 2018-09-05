@@ -1,0 +1,280 @@
+
+
+*{
+	margin: 0px;
+	border: 0px;
+	padding: 0px;
+}
+
+.nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+	/*
+    background-color: #323A45;
+	*/
+	background: linear-gradient(#2c333d, #323A45, #2c333d);
+	width: 100%;
+	text-align: center;
+	border-bottom: 1px solid #5faeb6;
+}
+
+.nav-button {
+	display: inline-block;
+	margin: 8px 3%;
+	
+}
+
+.nav-button a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 7px 16px;
+    text-decoration: none;
+	font-family: 'Roboto', sans-serif;
+	font-size: 20px;
+	transition: color 1s;
+}
+
+.nav-button a:hover, .dropdown:hover .dropbtn {
+	color: #5FAEB6;
+}
+
+.nav-button.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 10px 12px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+	font-size: 14px;
+	font-family: 'Nunito', sans-serif;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/*
+#home a{
+	color: #5FAEB6;
+	
+}
+*/
+
+.cover {
+	background-image: url('cover-sample.png');
+	height: 100%;
+	background-attachment: fixed;
+    background-position: center;d
+    background-repeat: no-repeat;
+    background-size: cover;
+	color: white;
+	text-shadow: 2px 2px 2px black;
+	text-align: center;
+	
+}
+
+#logo {
+	display: inline-block;
+	max-width: 25%;
+	margin: auto;
+	padding-top: 7%;
+}
+
+
+.cover h1 {
+	font-family: 'Nunito', sans-serif;
+	font-size: 38px;
+	
+	
+}
+
+
+/*
+
+.slideshow {
+	border: 1px dashed black;
+	height: 600px;
+	background-color: #323A45;
+	
+}
+*/
+.main_content {
+	border-top: 1px solid #5faeb6;
+	background-color: #323A45;
+	border-bottom: 1px solid #5faeb6;
+	min-height: 100%;
+}
+
+	
+.header {
+
+}
+
+.header p {
+	font-family: 'Nunito', sans-serif;
+	padding-top: 20px;
+	padding-left: 10%;
+	padding-right: 10%;
+
+	font-size: 28px;
+	color: white;
+}
+
+.header h2 {
+	padding-top: 5%;
+	font-family: 'Roboto', sans-serif;
+	font-size: 42px;
+	color: white;
+}
+
+
+.block {
+	
+	margin: 5% 15% 5% 15%;
+	text-align: center;
+
+	/*
+	background-color: black;
+	
+	box-shadow: 20px 20px 100px #37404c;
+	*/
+	
+}
+	
+.separator {
+	background-image: url('cover-sample2.png');
+	height: 100%;
+	background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	color: white;
+	text-shadow: 2px 2px 2px black;
+	text-align: center;
+
+	
+}
+
+
+.separator h1 {
+	font-family: 'Nunito', sans-serif;
+	font-size: 72px;
+	padding-top: 20%;
+	
+	
+}
+
+	
+.row {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	
+}
+
+.row {
+	background-color: #5FAEB6;
+	box-shadow: 0px -0.25px 50px #323A45;
+}
+
+
+.column {
+	margin: 2%;
+	width: 400px;
+}
+
+
+.column{
+	text-align: center;
+	
+}
+.column img{
+	max-width: 50%;
+	
+
+}
+
+.column h3{
+	font-family: 'Nunito', sans-serif;
+	font-size: 38px;
+
+}
+
+.column p{
+	padding-top: 20px;
+	font-family: 'Nunito', sans-serif;
+	font-size: 18px;
+}
+
+.footer {
+	color: white;
+	background-color: #323A45;
+	text-align: center;
+	padding: 5px;
+}
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+	background-color: white;
+	color: #323A45;
+}
+
+.title {
+    color: #323A45;
+    font-size: 18px;
+}
+
+button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #323A45;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+}
+
+.card a {
+    text-decoration: none;
+    font-size: 22px;
+    color: #323A45;
+}
+.card h1 {
+	color: #323A45;
+	
+}
+
+.card img {
+	max-width: 300px;
+	max-height: 300px;
+}
+
+.card p {
+	color: #323A45;
+}
+
+button:hover, a:hover {
+    opacity: 0.9;
+}

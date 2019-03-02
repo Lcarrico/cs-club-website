@@ -283,3 +283,7 @@ button {
 button:hover, a:hover {
     opacity: 0.9;
 }
+
+.projects_list a {
+	color: white;
+}

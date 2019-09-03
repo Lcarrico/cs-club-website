@@ -231,12 +231,15 @@
 }
 .card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    max-width: 25%;
-    margin: auto;
+    max-width: 20%;
+    margin: 5px;
     text-align: center;
 	background-color: white;
 	color: #323A45;
-	float: left;
+	float: center;
+	vertical-align: top;
+	display: inline-block;
+	height: 500px;
 }
 
 .card_separator {
